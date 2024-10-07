@@ -90,15 +90,19 @@ box-shadow: 4px 8px 12px rgba(0, 0, 0, 1);
   0% {
     border-color: #d818ae;
   }
+
   25% {
     border-color: rgb(45, 241, 134);
   }
+
   50% {
     border-color: rgb(42, 177, 143);
   }
+
   75% {
     border-color: rgb(166, 177, 18);
   }
+
   100% {
     border-color: rgb(255, 23, 23);
   }

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Latihan</title>
 
-    <!-- Syntax <style>    </style> Merupakan syntax utk CSS Internal 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSS Latihan</title>
+
+  <!-- Syntax <style>    </style> Merupakan syntax utk CSS Internal 
      
       h1 {
         color: brown;
@@ -32,91 +33,89 @@
       } untuk memanggil attribut class
     
     -->
-    <style>
-      h1 {
-        color: brown;
-      }
+  <style>
+    h1 {
+      color: brown;
+    }
 
-      [name="sjudul"] {
-        color: purple;
-      }
+    [name="sjudul"] {
+      color: purple;
+    }
 
-      p {
-        font-size: 25;
-      }
+    p {
+      font-size: 25;
+    }
 
-      #Prg2 {
-        color: red;
-      }
+    #Prg2 {
+      color: red;
+    }
 
-      .cstm-prg {
-        color: aqua;
-      }
+    .cstm-prg {
+      color: aqua;
+    }
 
-      .text-black {
-        color: black;
-      }
+    .text-black {
+      color: black;
+    }
 
-      .phighlight {
-        color: black;
-      }
+    .phighlight {
+      color: black;
+    }
 
-      .phighlight > .spanlight {
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <nav>
-      <a href="#">Home</a> | <a href="Page_1.html">Page 1</a> |
-      <a href="Page_2.html">Page 2</a>
-    </nav>
-    <!-- Inline CSS
+    .phighlight>.spanlight {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="#">Home</a> | <a href="Page_1.html">Page 1</a> |
+    <a href="Page_2.html">Page 2</a>
+  </nav>
+  <!-- Inline CSS
      memasukan style CSS lagsung pada tag HTML -->
-    <h1
-      style="
+  <h1 style="
         color: rgb(9, 66, 13);
         font-family: Algerian;
         text-align: center;
         margin-bottom: 120px;
-      "
-    >
-      Contoh Penulisan CSS
-    </h1>
+      ">
+    Contoh Penulisan CSS
+  </h1>
 
-    <div
-      style="
+  <div style="
         border: 2px solid black;
         padding: 32px 48px 32px 32px; /* Mengatur jarak padding (Atas, Kanan, Bawah, Kiri )  */
         margin: 20px 20px 46px 19px; /* Mengatur jarak margin (Atas, Kanan, Bawah, Kiri )  */
         border-radius: 0 10px 0 24px;
         text-align: center;
-      "
-    >
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor ipsum
-        possimus dolores, aperiam ullam, corrupti, deleniti ipsa molestiae
-        expedita necessitatibus laboriosam tenetur a iste! Perferendis libero
-        autem et ipsa nemo?
-      </p>
-    </div>
+      ">
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor ipsum
+      possimus dolores, aperiam ullam, corrupti, deleniti ipsa molestiae
+      expedita necessitatibus laboriosam tenetur a iste! Perferendis libero
+      autem et ipsa nemo?
+    </p>
+  </div>
 
-    <!-- <h1> s/d <p5> 
+  <!-- <h1> s/d <p5> 
         bagian CSS Internal
         -->
 
-    <h1>Judul</h1>
-    <h3 name="sjudul">Sub judul</h3>
+  <h1>Judul</h1>
+  <h3 name="sjudul">Sub judul</h3>
 
-    <p>Paragraph 1</p>
-    <p id="Prg2">Paragraph 2</p>
-    <p class="cstm-prg">Paragraph 3</p>
-    <p class="cstm-prg text-black">Paragraph 4</p>
-    <p class="cstm-prg">Paragraph 5</p>
+  <p>Paragraph 1</p>
+  <p id="Prg2">Paragraph 2</p>
+  <p class="cstm-prg">Paragraph 3</p>
+  <p class="cstm-prg text-black">Paragraph 4</p>
+  <p class="cstm-prg">Paragraph 5</p>
 
-    <p class="phighlight">
-      saya sedang belajar
-      <span class="spanlight">Programing di Disnaker Bandung</span>
-    </p>
-  </body>
+  <p class="phighlight">
+    saya sedang belajar
+    <span class="spanlight">Programing di Disnaker Bandung</span>
+  </p>
+</body>
+
 </html>
