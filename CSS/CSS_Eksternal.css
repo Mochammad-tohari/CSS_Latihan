@@ -1,0 +1,105 @@
+/* 
+
+Memanggil dan mengatur elemen di file "Namafile.html" contoh Page_1.html
+
+*/
+
+.judul {
+  color: blue;
+}
+
+.ket {
+  color: red;
+}
+
+.container {
+  /* height: 2000px; */
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+
+  border: 5px solid #1b1919;
+
+  border-radius: 10px;
+
+  width: 300px;
+
+  padding: 12px;
+
+  /* transition: box-shadow 1s ease-out;
+
+  animation-name: changeBoderColor;
+
+  animation-duration: 3s; */
+}
+
+/* .card:nth-child(2) {
+  position: fixed;
+} */
+
+/* .card > img {
+  width: 100%;
+} */
+
+.gmbr {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card .title {
+  color: aqua;
+
+  font-size: 28px;
+  margin: 0px;
+}
+
+.card .deskrip {
+  color: #ff1100;
+
+  margin: 0px;
+
+  margin-bottom: 16px;
+}
+
+/* Hover
+Memberi efek pada elemen saat mouse menyentuh elemen
+
+*/
+
+.card-link:hover {
+  color: #ff1100;
+}
+
+/* Hover
+box-shadow: 4px 8px 12px rgba(0, 0, 0, 1);
+4px = koordinat X
+8px =  koordinat y
+
+*/
+
+.card:hover {
+  /* box-shadow: 4px 8px 12px 17px rgba(0, 0, 0, 1); */
+  transform: scale(1.1);
+}
+
+@keyframes changeBoderColor {
+  0% {
+    border-color: #d818ae;
+  }
+  25% {
+    border-color: rgb(45, 241, 134);
+  }
+  50% {
+    border-color: rgb(42, 177, 143);
+  }
+  75% {
+    border-color: rgb(166, 177, 18);
+  }
+  100% {
+    border-color: rgb(255, 23, 23);
+  }
+}
